@@ -22,7 +22,14 @@ class Auth extends BaseController
         ];
         return view('v_template_login', $data);
     }
-
+    public function LoginUser()
+    {
+        $data = [
+            'judul' => 'LoginUser',
+            'page' => 'v_login_user'
+        ];
+        return view('v_template_login', $data);
+    }
     public function cekLoginUser()
     {
         
@@ -67,14 +74,6 @@ class Auth extends BaseController
         }
     }
 
-    public function LoginUser()
-    {
-        $data = [
-            'judul' => 'LoginUser',
-            'page' => 'v_login_user'
-        ];
-        return view('v_template_login', $data);
-    }
 
     public function loginAnggota()
     {
