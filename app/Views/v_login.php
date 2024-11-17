@@ -11,7 +11,6 @@
         <div class="small-box bg-success">
             <div class="inner">
                     <h3>User</h3>
-
                     <p>login untuk Admin</p>
                 </div>
                 <div class="icon">
