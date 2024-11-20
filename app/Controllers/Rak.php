@@ -44,8 +44,16 @@ class Rak extends BaseController
             'nama_rak'=> $this->request->getPost('nama_rak'),
             'lorong_rak'=> $this->request->getPost('lorong_rak')
         ];
-        $this->ModelRak->EditDataData($data);
+        $this->ModelRak->EditData($data);
         session()->setFlashdata('pesan', 'Data Berhasil DiUpdate');
+        return redirect()->to(base_url('Rak'));
+    }
+
+    public function DeleteData($id_rak)
+    {
+        $data= ['id_rak'=> $id_rak];
+        $this->ModelRak->DeleteData($data);
+        session()->setFlashdata('pesan', 'Data Berhasil DiHapus !');
         return redirect()->to(base_url('Rak'));
     }
 }

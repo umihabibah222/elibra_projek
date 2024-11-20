@@ -91,3 +91,72 @@
         <!-- /.modal-dialog -->
 </div>
 
+<!-- Modal Edit -->
+<?php foreach($rak as $key => $value) { ?>
+    <div class="modal fade" id="modal-edit<?= $value['id_rak'] ?>">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Edit <?= $judul ?></h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <?php echo form_open(base_url('Rak/EditData/' . $value['id_rak'])) ?>
+                        <div class="form-group">
+                            <label>Nama Kategori</label>
+                            <input class="form-control" value="<?= $value['nama_rak'] ?>" name="nama_rak" placeholder="Nama Rak" required>
+                        </div>
+                    </div>
+
+                    <div class="modal-body">
+                        <?php echo form_open(base_url('Rak/EditData')) ?>
+                        <div class="form-group">
+                            <label>Lorong Rak</label>
+                            <input type="number" class="form-control" name="lorong_rak" placeholder="Lorong Rak" required>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer justify-content-between">
+                        <button type="button" class="btn btn-default btn-flat" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-warning btn-flat">Simpan</button>
+                    </div>
+                <?php echo form_close() ?>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+            <!-- /.modal-dialog -->
+    </div>
+<?php } ?>
+
+<!-- Modal Delete -->
+<?php foreach($rak as $key => $value) { ?>
+    <div class="modal fade" id="modal-delete<?= $value['id_rak'] ?>">
+            <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Delete <?= $judul ?></h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <?php echo form_open(base_url('Rak/DeleteData/' . $value['id_rak'])) ?>
+                        <div class="form-group">
+                            <p style="color: black;">Apakah Yakin Akan Hapus Data <b style="color: red;" ><?= $value['nama_rak'] ?>  di Lorong  <?= $value['lorong_rak'] ?></b>...?</p>
+                        </div>
+                </div>
+
+                <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-default btn-flat" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-danger btn-flat">Delete</button>
+                </div>
+                <?php echo form_close() ?>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+            <!-- /.modal-dialog -->
+    </div>
+<?php } ?>
