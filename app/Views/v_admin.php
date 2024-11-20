@@ -1,1 +1,1 @@
-<h1>Halaman Admin</h1>
+<h1>Halaman Dashboard</h1>

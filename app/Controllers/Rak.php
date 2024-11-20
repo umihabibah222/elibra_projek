@@ -19,6 +19,8 @@ class Rak extends BaseController
     public function index()
     {
         $data = [
+            'menu' => 'datamaster',
+            'submenu' => 'rak',
             'judul' => 'Rak',
             'page' => 'v_rak',
             'rak' => $this->ModelRak->AllData(),
