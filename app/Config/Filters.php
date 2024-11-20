@@ -89,6 +89,8 @@ class Filters extends BaseFilters
             //         '/',
             //         'Admin','Admin/*',
             //         'Kategori','Kategori/*',
+            //         'Rak','Rak/*',
+            //         'Penerbit','Penerbit/*',
             //     ]
             // ],
             // 'toolbar',           
