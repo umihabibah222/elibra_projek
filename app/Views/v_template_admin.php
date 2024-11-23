@@ -131,45 +131,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </ul>
           </li>
 
-            <li class="nav-item  <?= $menu == 'datamaster' ?  'menu-open':''?>">
-            <a href="#" class="nav-link  <?= $menu == 'datamaster' ?  'active':''?>">
-              <i class="nav-icon fas fa-th"></i>
-              <p> Data Master <i class="right fas fa-angle-left"></i></p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Buku</p>
-                </a>
-              </li>
-              
-              <li class="nav-item">
-                <a href="<?= base_url('Kategori') ?>" class="nav-link <?= $submenu == 'kategori' ?  'active':''?>">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Kategori</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="<?= base_url('Rak') ?>" class="nav-link <?= $submenu == 'rak' ?  'active':''?>">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Rak</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="<?= base_url('Penerbit') ?>" class="nav-link <?= $submenu == 'penerbit' ?  'active':''?>">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Penerbit</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="<?= base_url('Penulis') ?>" class="nav-link <?= $submenu == 'penulis' ?  'active':''?>">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Penulis</p>
-                </a>
-              </li>
-            </ul>
-          </li>
+
 
           <li class="nav-item">
             <a href="#" class="nav-link">
