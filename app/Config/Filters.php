@@ -91,6 +91,7 @@ class Filters extends BaseFilters
             //         'Kategori','Kategori/*',
             //         'Rak','Rak/*',
             //         'Penerbit','Penerbit/*',
+            //         'Penulis','Penulis/*',
             //     ]
             // ],
             // 'toolbar',           
