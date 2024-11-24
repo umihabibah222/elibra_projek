@@ -153,7 +153,29 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </ul>
           </li>
 
-          <li class="nav-item <?= $menu =='pengaturan' ? 'menu-open' : '' ?>">
+          <li class="nav-item  <?= $menu == 'pengaturan' ?  'menu-open':''?>">
+            <a href="#" class="nav-link  <?= $menu == 'pengaturan' ?  'active':''?>">
+              <i class="nav-icon fas fa-cogs"></i>
+              <p>Pengaturan<i class="right fas fa-angle-left"></i></p>
+            </a>
+            <ul class="nav nav-treeview">
+            <li class="nav-item">
+                <a href="<?= base_url('User') ?>" class="nav-link <?= $submenu == 'user' ?  'active':''?>">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>User</p>
+                </a>
+              </li>
+              
+              <li class="nav-item">
+                <a href="<?= base_url('Kategori') ?>" class="nav-link <?= $submenu == 'web' ?  'active':''?>">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Web</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <!-- <li class="nav-item <?= $menu =='pengaturan' ? 'menu-open' : '' ?>">
             <a href="#" class="nav-link <?= $menu == 'pengaturan' ? 'active' : '' ?>">
               <i class="fas fa-cogs"></i>              
               <p>Pengaturan<i class="right fas-fa-angle-left"></i></p>
@@ -173,9 +195,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     <p>Web</p>
                   </a>
                 </li>
-
             </ul>
-          </li>
+          </li> -->
+
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
