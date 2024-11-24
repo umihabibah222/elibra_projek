@@ -17,7 +17,7 @@ class Penerbit extends BaseController
     public function index()
     {
         $data = [
-            'menu' => 'datamaster',
+            'menu' => 'masterbuku',
             'submenu' => 'penerbit',
             'judul' => 'Penerbit',
             'page' => 'v_penerbit',

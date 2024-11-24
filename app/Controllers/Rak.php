@@ -19,7 +19,7 @@ class Rak extends BaseController
     public function index()
     {
         $data = [
-            'menu' => 'datamaster',
+            'menu' => 'masterbuku',
             'submenu' => 'rak',
             'judul' => 'Rak',
             'page' => 'v_rak',

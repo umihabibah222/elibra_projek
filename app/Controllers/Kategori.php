@@ -18,7 +18,7 @@ class Kategori extends BaseController
     public function index()
     {
         $data = [
-            'menu' => 'datamaster',
+            'menu' => 'masterbuku',
             'submenu' => 'kategori',
             'judul' => 'Kategori',
             'page' => 'v_kategori',

@@ -92,6 +92,7 @@ class Filters extends BaseFilters
             //         'Rak','Rak/*',
             //         'Penerbit','Penerbit/*',
             //         'Penulis','Penulis/*',
+            //         'Prodi','Prodi/*',
             //     ]
             // ],
             // 'toolbar',           

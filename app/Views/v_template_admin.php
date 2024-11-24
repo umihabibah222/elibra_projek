@@ -91,10 +91,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
           </li>
 
-          <li class="nav-item  <?= $menu == 'datamaster' ?  'menu-open':''?>">
-            <a href="#" class="nav-link  <?= $menu == 'datamaster' ?  'active':''?>">
-              <i class="nav-icon fas fa-th"></i>
-              <p> Data Master <i class="right fas fa-angle-left"></i></p>
+          <li class="nav-item  <?= $menu == 'masterbuku' ?  'menu-open':''?>">
+            <a href="#" class="nav-link  <?= $menu == 'masterbuku' ?  'active':''?>">
+              <i class="nav-icon fas fa-book"></i>
+              <p> Master Buku <i class="right fas fa-angle-left"></i></p>
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
@@ -131,8 +131,51 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </ul>
           </li>
 
+          <li class="nav-item  <?= $menu == 'masteranggota' ?  'menu-open':''?>">
+            <a href="#" class="nav-link  <?= $menu == 'masteranggota' ?  'active':''?>">
+              <i class="nav-icon fas fa-users"></i>
+              <p> Master Anggota <i class="right fas fa-angle-left"></i></p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Anggota</p>
+                </a>
+              </li>
+              
+              <li class="nav-item">
+                <a href="<?= base_url('Prodi') ?>" class="nav-link <?= $submenu == 'prodi' ?  'active':''?>">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Prodi</p>
+                </a>
+              </li>
+            </ul>
+          </li>
 
+          <li class="nav-item <?= $menu =='pengaturan' ? 'menu-open' : '' ?>">
+            <a href="#" class="nav-link <?= $menu == 'pengaturan' ? 'active' : '' ?>">
+              <i class="fas fa-cogs"></i>              
+              <p>Pengaturan<i class="right fas-fa-angle-left"></i></p>
+            </a>
+            <ul lass="nav nav-treeview">
 
+              <li class="nav-item">
+                  <a href="<?= base_url('User') ?>" class="nav-link <?= $submenu == 'user' ?  'active':''?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>User</p>
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="<?= base_url('Kategori') ?>" class="nav-link <?= $submenu == 'web' ?  'active':''?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Web</p>
+                  </a>
+                </li>
+
+            </ul>
+          </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
