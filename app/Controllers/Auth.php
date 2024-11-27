@@ -25,7 +25,7 @@ class Auth extends BaseController
     public function LoginUser()
     {
         $data = [
-            'judul' => 'LoginUser',
+            'judul' => 'Login Admin',
             'page' => 'v_login_user'
         ];
         return view('v_template_login', $data);
@@ -91,5 +91,14 @@ class Auth extends BaseController
         session()->remove('level');
         session()->setFlashdata('pesan', 'LogOut Berhasil !');
         return redirect()->to(base_url('/Auth/LoginUser'));
+    }
+
+    public function Register()
+    {
+        $data = [
+            'judul' => 'Daftar Anggota',
+            'page' => 'v_daftar_anggota'
+        ];
+        return view('v_login_anggota', $data);
     }
 }

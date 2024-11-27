@@ -3,7 +3,7 @@
     <!-- /.login-logo -->
     <div class="card card-outline card-primary">
         <div class="card-header text-center">
-            <a href="#" class="h1"><b>E-</b>Libra</a> <br>Login Admin
+            <a href="#" class="h2"><?= $judul ?></a>
         </div>
         <div class="card-body">
             <?php 
@@ -48,7 +48,7 @@
             </div>
             <div class="row">
             <div class="col-sm-6">           
-                <a class="btn btn-success" href="<?= base_url('Auth')?>">Back</a>         
+                <a class="btn btn-success btn-block" href="<?= base_url('Auth')?>">Back</a>         
             </div>
             <!-- /.col -->
             <div class="col-sm-6">

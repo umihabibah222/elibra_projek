@@ -16,7 +16,10 @@
   <link rel="stylesheet" href="<?= base_url('AdminLTE') ?>/dist/css/adminlte.min.css">
 </head>
 <body class="hold-transition login-page">
-
+  <div class="login-logo">
+      <p style="margin-bottom: 5px; font-size: 18px; font-weight: bold;">Selamat Datang di</p>
+      <img src="<?= base_url('AdminLTE') ?>/dist/img/E-Libra.png" alt="AdminLTE Logo" style="margin-top: 10px; max-width: 100px;">  <br>  
+  </div>
  
  <?php
   if ($page) {

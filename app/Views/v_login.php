@@ -1,9 +1,3 @@
-<div class="login-logo">
-    <p style="margin-bottom: 5px; font-size: 18px; font-weight: bold;">Selamat Datang di</p>
-    <img src="<?= base_url('AdminLTE') ?>/dist/img/E-Libra.png" alt="AdminLTE Logo" style="margin-top: 10px; max-width: 100px;">  <br>
-    <a href="<?= base_url() ?>">Website | <b>E-</b>Libra</a>   
-</div>
-
 <div class="row">
 
     <div class="login-box">
