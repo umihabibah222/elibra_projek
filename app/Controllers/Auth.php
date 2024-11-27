@@ -106,5 +106,56 @@ class Auth extends BaseController
         return view('v_template_login', $data);
     }
 
-    
+    public function Daftar()
+    {
+        if ($this->validate([
+            'prodi'=> [
+                'label' => 'Prodi',
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} Belum Dipilih !',
+                ]
+            ],
+            'nim'=> [
+                'label' => 'NIM',
+                'rules' => 'required|is_unique[tbl_anggota.nim]',
+                'errors' => [
+                    'required' => '{field} Masih Kosong!',
+                    'is_unique' => '{field} Sudah Terdaftar !',
+                ]
+            ],
+            'nama_anggota'=> [
+                'label' => 'Nama Anggota',
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} Masih Kosong!',
+                ]
+            ],   
+            'email'=> [
+                'label' => 'Email',
+                'rules' => 'required|is_unique[tbl_anggota.email]',
+                'errors' => [
+                    'required' => '{field} Masih Kosong!',
+                    'is_unique' => '{field} Sudah Terdaftar Masukan Email lain!', 
+                ]
+            ],  
+            'password'=> [
+                'label' => 'Password',
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} Masih Kosong!',
+                ]
+            ],
+            'ulangi_password'=> [
+                'label' => 'Ulangi Password',
+                'rules' => 'required|matches[password]',
+                'errors' => [
+                    'required' => '{field} Masih Kosong!',
+                    'matches' => '{field} Tidak Sama Dengan Password Sebelumnya !',
+                ]
+            ],
+                     
+        ])) {
+        }
+    }
 }

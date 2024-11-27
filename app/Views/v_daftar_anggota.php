@@ -5,6 +5,20 @@
         <a href="<?= base_url('Auth') ?>" class="h2"><?= $judul ?></a> 
         </div>
         <div class="card-body">
+            <?php
+            // notifikasi validasi
+            $errors = session()->getFlashdata('errors');
+            if (!empty($errors)) { ?>
+                <div class="alert alert-danger">
+                    <h4>Periksa Entry From</h4>
+                    <ul>
+                        <?php foreach ($errors as $key => $error) { ?>
+                            <li><?= esc($error) ?></li>
+
+                        <?php } ?>
+                    </ul>
+                </div>
+            <?php } ?>
 
             <?php echo form_open('Auth/Daftar') ?>  
             

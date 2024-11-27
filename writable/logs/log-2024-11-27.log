@@ -1,0 +1,306 @@
+INFO - 2024-11-27 02:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 02:45:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 03:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 03:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 03:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 03:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 03:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 03:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 03:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 03:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 03:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 04:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 04:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 04:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 04:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 04:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 04:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-11-27 04:36:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+[Method: GET, Route: Auth/Register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\Auth.php(102): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->Register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 04:36:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: ".php"
+[Method: GET, Route: Auth/Register]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('', [], true)
+ 3 APPPATH\Controllers\Auth.php(102): view('', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->Register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 06:43:37 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: Auth/Register]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(922): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Auth.php(104): CodeIgniter\Model->__call('AllData', [])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->Register()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 06:57:55 --> ErrorException: Undefined variable $prodi
+[Method: GET, Route: Auth/Register]
+in APPPATH\Views\v_daftar_anggota.php on line 39.
+ 1 APPPATH\Views\v_daftar_anggota.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prodi', 'C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_daftar_anggota', [], true)
+ 5 APPPATH\Views\v_template_login.php(26): view('v_daftar_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_template_login.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_login', [], true)
+ 9 APPPATH\Controllers\Auth.php(106): view('v_template_login', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->Register()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 06:58:28 --> ErrorException: Undefined variable $Prodi
+[Method: GET, Route: Auth/Register]
+in APPPATH\Views\v_daftar_anggota.php on line 39.
+ 1 APPPATH\Views\v_daftar_anggota.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Prodi', 'C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_daftar_anggota', [], true)
+ 5 APPPATH\Views\v_template_login.php(26): view('v_daftar_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_template_login.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_login', [], true)
+ 9 APPPATH\Controllers\Auth.php(106): view('v_template_login', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->Register()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 06:58:30 --> ErrorException: Undefined variable $Prodi
+[Method: GET, Route: Auth/Register]
+in APPPATH\Views\v_daftar_anggota.php on line 39.
+ 1 APPPATH\Views\v_daftar_anggota.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Prodi', 'C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_daftar_anggota', [], true)
+ 5 APPPATH\Views\v_template_login.php(26): view('v_daftar_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_template_login.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_login', [], true)
+ 9 APPPATH\Controllers\Auth.php(106): view('v_template_login', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->Register()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 06:58:32 --> ErrorException: Undefined variable $Prodi
+[Method: GET, Route: Auth/Register]
+in APPPATH\Views\v_daftar_anggota.php on line 39.
+ 1 APPPATH\Views\v_daftar_anggota.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Prodi', 'C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_daftar_anggota', [], true)
+ 5 APPPATH\Views\v_template_login.php(26): view('v_daftar_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_template_login.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_login', [], true)
+ 9 APPPATH\Controllers\Auth.php(106): view('v_template_login', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->Register()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 06:59:59 --> ErrorException: Undefined variable $tbl_prodi
+[Method: GET, Route: Auth/Register]
+in APPPATH\Views\v_daftar_anggota.php on line 39.
+ 1 APPPATH\Views\v_daftar_anggota.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbl_prodi', 'C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_daftar_anggota', [], true)
+ 5 APPPATH\Views\v_template_login.php(26): view('v_daftar_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_template_login.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_login', [], true)
+ 9 APPPATH\Controllers\Auth.php(106): view('v_template_login', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->Register()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 07:04:01 --> ErrorException: Undefined variable $ModelProdi
+[Method: GET, Route: Auth/Register]
+in APPPATH\Views\v_daftar_anggota.php on line 39.
+ 1 APPPATH\Views\v_daftar_anggota.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ModelProdi', 'C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_daftar_anggota', [], true)
+ 5 APPPATH\Views\v_template_login.php(26): view('v_daftar_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_template_login.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_login', [], true)
+ 9 APPPATH\Controllers\Auth.php(106): view('v_template_login', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->Register()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 07:05:04 --> ErrorException: Undefined variable $tbl_prodi
+[Method: GET, Route: Auth/Register]
+in APPPATH\Views\v_daftar_anggota.php on line 39.
+ 1 APPPATH\Views\v_daftar_anggota.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tbl_prodi', 'C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_daftar_anggota', [], true)
+ 5 APPPATH\Views\v_template_login.php(26): view('v_daftar_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_template_login.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_login', [], true)
+ 9 APPPATH\Controllers\Auth.php(106): view('v_template_login', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->Register()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 07:06:41 --> ErrorException: Undefined variable $prodi
+[Method: GET, Route: Auth/Register]
+in APPPATH\Views\v_daftar_anggota.php on line 39.
+ 1 APPPATH\Views\v_daftar_anggota.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prodi', 'C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_daftar_anggota', [], true)
+ 5 APPPATH\Views\v_template_login.php(26): view('v_daftar_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_template_login.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_login', [], true)
+ 9 APPPATH\Controllers\Auth.php(106): view('v_template_login', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->Register()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 07:06:56 --> ErrorException: Undefined variable $Prodi
+[Method: GET, Route: Auth/Register]
+in APPPATH\Views\v_daftar_anggota.php on line 39.
+ 1 APPPATH\Views\v_daftar_anggota.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Prodi', 'C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_daftar_anggota', [], true)
+ 5 APPPATH\Views\v_template_login.php(26): view('v_daftar_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_template_login.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_login', [], true)
+ 9 APPPATH\Controllers\Auth.php(106): view('v_template_login', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->Register()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 07:12:09 --> ErrorException: Undefined variable $prodi
+[Method: GET, Route: Auth/Register]
+in APPPATH\Views\v_daftar_anggota.php on line 39.
+ 1 APPPATH\Views\v_daftar_anggota.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prodi', 'C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_daftar_anggota', [], true)
+ 5 APPPATH\Views\v_template_login.php(26): view('v_daftar_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_template_login.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_login', [], true)
+ 9 APPPATH\Controllers\Auth.php(106): view('v_template_login', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->Register()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 07:14:51 --> ErrorException: Undefined variable $prodi
+[Method: GET, Route: Auth/Register]
+in APPPATH\Views\v_daftar_anggota.php on line 39.
+ 1 APPPATH\Views\v_daftar_anggota.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prodi', 'C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_daftar_anggota', [], true)
+ 5 APPPATH\Views\v_template_login.php(26): view('v_daftar_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_template_login.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_login', [], true)
+ 9 APPPATH\Controllers\Auth.php(106): view('v_template_login', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->Register()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-27 07:15:03 --> ErrorException: Undefined variable $prodi
+[Method: GET, Route: Auth/Register]
+in APPPATH\Views\v_daftar_anggota.php on line 39.
+ 1 APPPATH\Views\v_daftar_anggota.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prodi', 'C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php', 39)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_daftar_anggota.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_daftar_anggota', [], true)
+ 5 APPPATH\Views\v_template_login.php(26): view('v_daftar_anggota')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_template_login.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_login', [], true)
+ 9 APPPATH\Controllers\Auth.php(106): view('v_template_login', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->Register()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-11-27 07:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 07:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 07:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 08:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-11-27 08:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
