@@ -20,18 +20,28 @@
                 </div>
             <?php } ?>
 
+            <?php 
+            if (session()->getFlashdata('pesan')) {
+                echo '<div class="alert alert-success alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                    <h5><i class="icon fas fa-check"></i>';
+                echo session()->getFlashdata('pesan');
+                echo '</h5></div>';
+            }            
+            ?>
+
             <?php echo form_open('Auth/Daftar') ?>  
             
                 <div class="form-group mb-3">
-                    <input type="text" class="form-control" name="nama_anggota" placeholder="Nama Anggota">
+                    <input type="text" class="form-control" name="nama_anggota" value="<?= old('nana_anggota') ?>" placeholder="Nama Anggota">
                 </div> 
 
                 <div class="form-group mb-3">
-                    <input type="text" class="form-control" name="nim" placeholder="NIM">
+                    <input type="text" class="form-control" name="nim" value="<?= old('nim') ?>" placeholder="NIM">
                 </div>
 
                 <div class="form-group mb-3">
-                    <select name="prodi"  class="form-control">
+                    <select name="id_prodi"  class="form-control">
                         <option value="">--Pilih Prodi--</option>
                             <?php foreach ($prodi as $key => $value) { ?>
                                 <option value="<?= $value['id_prodi'] ?>"><?= $value['nama_prodi'] ?></option>
@@ -48,15 +58,19 @@
                 </div>
 
                 <div class="form-group mb-3">
-                    <input type="text" class="form-control" name="no_hp" placeholder="Nomor Handphone">
+                    <input type="text" class="form-control" name="email" placeholder="Email">
                 </div>
 
                 <div class="form-group mb-3">
-                    <input type="password" class="form-control" name="password" placeholder="Password">
+                    <input type="text" class="form-control" name="no_hp" value="<?= old('n0_hp') ?>" placeholder="Nomor Handphone">
                 </div>
 
                 <div class="form-group mb-3">
-                    <input type="password" class="form-control" name="ulangi_password" placeholder="Ulangi Password">
+                    <input type="password" class="form-control" name="password" value="<?= old('password') ?>" placeholder="Password">
+                </div>
+
+                <div class="form-group mb-3">
+                    <input type="password" class="form-control" name="ulangi_password" value="<?= old('ulangi_password') ?>" placeholder="Ulangi Password">
                 </div>
 
                 <div class="row">

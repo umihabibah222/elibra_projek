@@ -14,14 +14,13 @@
 
         
         <?php 
-            if (session()->getFlashdata('pesan')) {
-                echo '<div class="alert alert-success alert-dismissible">
-                  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                  <h5><i class="icon fas fa-check"></i>';
-                echo session()->getFlashdata('pesan');
-                echo '</h5></div>';
-            }
-            
+        if (session()->getFlashdata('pesan')) {
+            echo '<div class="alert alert-success alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <h5><i class="icon fas fa-check"></i>';
+            echo session()->getFlashdata('pesan');
+            echo '</h5></div>';
+        }            
         ?>
 
         <table class="table table-bordered">

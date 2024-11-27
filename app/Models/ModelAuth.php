@@ -16,4 +16,9 @@ class ModelAuth extends Model
             'password' => $password,
         ])->get()->getRowArray();
     }
+
+    public function Daftar($data)
+    {
+        $this->db->table('tbl_anggota')->insert($data);
+    }
 }

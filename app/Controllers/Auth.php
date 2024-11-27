@@ -109,7 +109,7 @@ class Auth extends BaseController
     public function Daftar()
     {
         if ($this->validate([
-            'prodi'=> [
+            'id_prodi'=> [
                 'label' => 'Prodi',
                 'rules' => 'required',
                 'errors' => [
@@ -131,6 +131,13 @@ class Auth extends BaseController
                     'required' => '{field} Masih Kosong!',
                 ]
             ],   
+            'jenis_kelamin'=> [
+                'label' => 'jenis Kelamin',
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} Masih Kosong!',
+                ]
+            ],   
             'email'=> [
                 'label' => 'Email',
                 'rules' => 'required|is_unique[tbl_anggota.email]',
@@ -139,6 +146,13 @@ class Auth extends BaseController
                     'is_unique' => '{field} Sudah Terdaftar Masukan Email lain!', 
                 ]
             ],  
+            'no_hp'=> [
+                'label' => 'No Handphone',
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} Masih Kosong!',
+                ]
+            ],   
             'password'=> [
                 'label' => 'Password',
                 'rules' => 'required',
@@ -154,8 +168,25 @@ class Auth extends BaseController
                     'matches' => '{field} Tidak Sama Dengan Password Sebelumnya !',
                 ]
             ],
-                     
+
         ])) {
+                // jka lolos validasi
+                $data= [
+                    'id_prodi'=> $this->request->getPost('id_prodi'),
+                    'nim'=> $this->request->getPost('nim'),
+                    'nama_anggota'=> $this->request->getPost('nama_anggota'),
+                    'jenis_kelamin'=> $this->request->getPost('jenis_kelamin'),
+                    'email'=> $this->request->getPost('email'),
+                    'no_hp'=> $this->request->getPost('no_hp'),
+                    'password'=> $this->request->getPost('password'),
+                ];
+                $this->ModelAuth->Daftar($data);
+                session()->setFlashdata('pesan', 'Akun Berhasil Terdaftar , Silahkan Login Kembali !');
+                return redirect()->to(base_url('Auth/Register'));
+        }else {
+                // jika tidak lolos validasi
+                session()->setFlashdata('errors', \Config\Services::validation()->getErrors());
+                return redirect()->to(base_url('Auth/Register'))->withInput('validation', \Config\Services::validation());
         }
     }
 }
