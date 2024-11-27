@@ -3,15 +3,18 @@
 namespace App\Controllers;
 
 use App\Models\ModelAuth;
+use App\Models\ModelProdi;
 
 class Auth extends BaseController
 {
     protected $ModelAuth;
+    protected $ModelProdi;
 
     public function __construct() 
     {
         helper('form'); 
         $this->ModelAuth = new ModelAuth(); 
+        $this->ModelProdi = new ModelProdi(); 
     }
 
     public function index(): string
@@ -97,8 +100,11 @@ class Auth extends BaseController
     {
         $data = [
             'judul' => 'Daftar Anggota',
-            'page' => 'v_daftar_anggota'
+            'page' => 'v_daftar_anggota',
+            'prodi' => $this->ModelProdi->AllData(),
         ];
-        return view('v_login_anggota', $data);
+        return view('v_template_login', $data);
     }
+
+    
 }
