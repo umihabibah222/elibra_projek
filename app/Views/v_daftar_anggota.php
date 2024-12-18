@@ -65,13 +65,20 @@
                     <input type="text" class="form-control" name="no_hp" value="<?= old('n0_hp') ?>" placeholder="Nomor Handphone">
                 </div>
 
-                <div class="form-group mb-3">
-                    <input type="password" class="form-control" name="password" value="<?= old('password') ?>" placeholder="Password">
+                <div class="form-group mb-3 position-relative">
+                    <input type="password" class="form-control" id="password" name="password" value="<?= old('password') ?>" placeholder="Password">
+                    <button type="button" class="btn btn-light position-absolute" id="togglePassword" style="right: 10px; top: 50%; transform: translateY(-50%);">
+                        <i class="fas fa-eye"></i>
+                    </button>
                 </div>
 
-                <div class="form-group mb-3">
-                    <input type="password" class="form-control" name="ulangi_password" value="<?= old('ulangi_password') ?>" placeholder="Ulangi Password">
+                <div class="form-group mb-3 position-relative">
+                    <input type="password" class="form-control" id="ulangi_password" name="ulangi_password" value="<?= old('ulangi_password') ?>" placeholder="Ulangi Password">
+                    <button type="button" class="btn btn-light position-absolute" id="toggleUlangiPassword" style="right: 10px; top: 50%; transform: translateY(-50%);">
+                        <i class="fas fa-eye"></i>
+                    </button>
                 </div>
+
 
                 <div class="row">
                     <div class="col-sm-6">           

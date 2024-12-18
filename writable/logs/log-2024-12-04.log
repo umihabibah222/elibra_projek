@@ -1,0 +1,103 @@
+INFO - 2024-12-04 14:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 14:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-12-04 15:26:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_template_anggota.php"
+[Method: GET, Route: DashboardAnggota]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_template_anggota.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 3 APPPATH\Controllers\DashboardAnggota.php(19): view('v_template_anggota', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 15:30:26 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_template_anggota.php"
+[Method: GET, Route: DashboardAnggota]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_template_anggota.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 3 APPPATH\Controllers\DashboardAnggota.php(19): view('v_template_anggota', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 15:30:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_template_anggota.php"
+[Method: GET, Route: DashboardAnggota]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_template_anggota.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 3 APPPATH\Controllers\DashboardAnggota.php(19): view('v_template_anggota', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 15:33:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_template_anggota.php"
+[Method: GET, Route: DashboardAnggota]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_template_anggota.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 3 APPPATH\Controllers\DashboardAnggota.php(19): view('v_template_anggota', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 15:37:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_dashboard_anggota.php"
+[Method: GET, Route: DashboardAnggota]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_dashboard_anggota.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dashboard_anggota', [], true)
+ 3 APPPATH\Views\v_template_anggota.php(185): view('v_dashboard_anggota')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_template_anggota.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 7 APPPATH\Controllers\DashboardAnggota.php(19): view('v_template_anggota', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-04 15:38:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "v_dashboard_anggota.php"
+[Method: GET, Route: DashboardAnggota]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_dashboard_anggota.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_dashboard_anggota', [], true)
+ 3 APPPATH\Views\v_template_anggota.php(185): view('v_dashboard_anggota')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\si-elibra-ci4\\app\\Views\\v_template_anggota.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('v_template_anggota', [], true)
+ 7 APPPATH\Controllers\DashboardAnggota.php(19): view('v_template_anggota', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardAnggota->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardAnggota))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-12-04 15:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-12-04 15:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

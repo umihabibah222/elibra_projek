@@ -25,8 +25,7 @@
                     echo '<div class="alert alert-danger" role="alert">';
                     echo session()->getFlashdata('pesan');
                     echo '</div>';
-                }
-            
+            }           
             ?>
 
             <?php echo form_open('Auth/CekLoginUser') ?>

@@ -21,4 +21,14 @@ class ModelAuth extends Model
     {
         $this->db->table('tbl_anggota')->insert($data);
     }
+
+    // Fungsi untuk login anggota
+    public function LoginAnggota($nim, $password)
+    {
+        return $this->db->table('tbl_anggota')
+        ->where([
+            'nim' => $nim,
+            'password' => $password,
+        ])->get()->getRowArray();
+    }
 }

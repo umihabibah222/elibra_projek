@@ -96,6 +96,14 @@ class Auth extends BaseController
         return redirect()->to(base_url('/Auth/LoginUser'));
     }
 
+    public function LogOutAnggota()
+    {
+        session()->remove('nama_anggota');
+        session()->remove('level');
+        session()->setFlashdata('pesan', 'LogOut Berhasil !');
+        return redirect()->to(base_url('/Auth/LoginAnggota'));
+    }
+
     public function Register()
     {
         $data = [
@@ -170,7 +178,7 @@ class Auth extends BaseController
             ],
 
         ])) {
-                // jka lolos validasi
+                // jika lolos validasi
                 $data= [
                     'id_prodi'=> $this->request->getPost('id_prodi'),
                     'nim'=> $this->request->getPost('nim'),
@@ -186,7 +194,52 @@ class Auth extends BaseController
         }else {
                 // jika tidak lolos validasi
                 session()->setFlashdata('errors', \Config\Services::validation()->getErrors());
-                return redirect()->to(base_url('Auth/Register'))->withInput('validation', \Config\Services::validation());
+                return redirect()->to(base_url('Auth/Register'))->withInput();
+        }
+
+    }
+
+    
+
+    // cek login anggota
+    public function cekLoginAnggota()
+    {
+        
+        if ($this->validate([
+            'nim'=> [
+                'label' => 'nim',
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} Masih Kosong!',
+                ]
+            ],
+            'password'=> [
+                'label' => 'Password',
+                'rules' => 'required',
+                'errors' => [
+                    'required' => '{field} Masih Kosong!',
+                ]
+            ]
+        ])) {
+            // jka entry data
+            $nim = $this->request->getPost('nim');
+            $password = $this->request->getPost('password');
+            $cek_login = $this->ModelAuth->LoginAnggota($nim, $password);
+            if ($cek_login) {
+                // jika login berhasil
+                session()->set('nama_anggota', $cek_login['nama_anggota']);
+                session()->set('level', 'Anggota');
+                return redirect()->to(base_url('DashboardAnggota'));
+            }else{
+                // Jika login gagal karena password atau email
+                session()->setFlashdata('pesan', 'NIM atau Password salah!');
+                return redirect()->to(base_url('Auth/LoginAnggota'));
+            }
+        }else{
+             // Jika validasi gagal atau tidak valid 
+             session()->setFlashdata('errors', \Config\Services::validation()->getErrors());
+             return redirect()->to(base_url('Auth/LoginAnggota'));
         }
     }
+
 }
