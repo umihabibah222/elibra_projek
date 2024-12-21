@@ -98,6 +98,7 @@ class Auth extends BaseController
 
     public function LogOutAnggota()
     {
+        session()->remove('id_anggota');
         session()->remove('nama_anggota');
         session()->remove('level');
         session()->setFlashdata('pesan', 'LogOut Berhasil !');
@@ -187,6 +188,7 @@ class Auth extends BaseController
                     'email'=> $this->request->getPost('email'),
                     'no_hp'=> $this->request->getPost('no_hp'),
                     'password'=> $this->request->getPost('password'),
+                    'verifikasi'=> '0',
                 ];
                 $this->ModelAuth->Daftar($data);
                 session()->setFlashdata('pesan', 'Akun Berhasil Terdaftar , Silahkan Login Kembali !');
@@ -227,6 +229,7 @@ class Auth extends BaseController
             $cek_login = $this->ModelAuth->LoginAnggota($nim, $password);
             if ($cek_login) {
                 // jika login berhasil
+                session()->set('id_anggota', $cek_login['id_anggota']);
                 session()->set('nama_anggota', $cek_login['nama_anggota']);
                 session()->set('level', 'Anggota');
                 return redirect()->to(base_url('DashboardAnggota'));

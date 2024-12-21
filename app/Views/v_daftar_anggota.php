@@ -66,18 +66,56 @@
                 </div>
 
                 <div class="form-group mb-3 position-relative">
-                    <input type="password" class="form-control" id="password" name="password" value="<?= old('password') ?>" placeholder="Password">
-                    <button type="button" class="btn btn-light position-absolute" id="togglePassword" style="right: 10px; top: 50%; transform: translateY(-50%);">
-                        <i class="fas fa-eye"></i>
-                    </button>
-                </div>
+            <input type="password" class="form-control" id="password" name="password" value="<?= htmlspecialchars($_POST['password'] ?? '') ?>" placeholder="Password">
+            <button type="button" class="btn btn-light position-absolute" id="togglePassword" style="right: 10px; top: 50%; transform: translateY(-50%);">
+                <i class="fas fa-eye"></i>
+            </button>
+        </div>
 
-                <div class="form-group mb-3 position-relative">
-                    <input type="password" class="form-control" id="ulangi_password" name="ulangi_password" value="<?= old('ulangi_password') ?>" placeholder="Ulangi Password">
-                    <button type="button" class="btn btn-light position-absolute" id="toggleUlangiPassword" style="right: 10px; top: 50%; transform: translateY(-50%);">
-                        <i class="fas fa-eye"></i>
-                    </button>
-                </div>
+        <!-- Ulangi Password Field -->
+        <div class="form-group mb-3 position-relative">
+            <input type="password" class="form-control" id="ulangi_password" name="ulangi_password" value="<?= htmlspecialchars($_POST['ulangi_password'] ?? '') ?>" placeholder="Ulangi Password">
+            <button type="button" class="btn btn-light position-absolute" id="toggleUlangiPassword" style="right: 10px; top: 50%; transform: translateY(-50%);">
+                <i class="fas fa-eye"></i>
+            </button>
+        </div>
+
+    </form>
+
+    <!-- Tambahkan JavaScript untuk fungsi toggle password -->
+    <script>
+        // Toggle password visibility for "Password" field
+        document.getElementById('togglePassword').addEventListener('click', function () {
+            const passwordInput = document.getElementById('password');
+            const icon = this.querySelector('i');
+
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                icon.classList.remove('fa-eye');
+                icon.classList.add('fa-eye-slash');
+            } else {
+                passwordInput.type = 'password';
+                icon.classList.remove('fa-eye-slash');
+                icon.classList.add('fa-eye');
+            }
+        });
+
+        // Toggle password visibility for "Ulangi Password" field
+        document.getElementById('toggleUlangiPassword').addEventListener('click', function () {
+            const ulangiPasswordInput = document.getElementById('ulangi_password');
+            const icon = this.querySelector('i');
+
+            if (ulangiPasswordInput.type === 'password') {
+                ulangiPasswordInput.type = 'text';
+                icon.classList.remove('fa-eye');
+                icon.classList.add('fa-eye-slash');
+            } else {
+                ulangiPasswordInput.type = 'password';
+                icon.classList.remove('fa-eye-slash');
+                icon.classList.add('fa-eye');
+            }
+        });
+    </script>
 
 
                 <div class="row">
