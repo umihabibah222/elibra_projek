@@ -60,10 +60,19 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="<?= base_url('AdminLTE') ?>/dist/img/admin1.png" class="img-circle elevation-2" alt="User Image">
+          <img src="<?= base_url('foto/' . $anggota['foto']) ?>" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Anggota</a>
+          <a href="#" class="d-block"><?= $anggota['nama_anggota']; ?></a>
+          <?php 
+          if ($anggota['verifikasi'] == 1){
+            echo '<a class="text-sucsess"><i class="fa fa-check-circle"></i> Verifikasi</a>';
+          } else {
+            echo '<a class="text-sucsess"><i class="fa fa-check-circle"></i>Belum Verifikasi</a>';
+
+          }
+          ?>
+          
         </div>
       </div>
 
