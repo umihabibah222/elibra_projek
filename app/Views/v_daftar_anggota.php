@@ -80,10 +80,33 @@
             </button>
         </div>
 
-    </form>
 
-    <!-- Tambahkan JavaScript untuk fungsi toggle password -->
-    <script>
+
+                <div class="row">
+                    <div class="col-sm-6">           
+                        <a class="btn btn-success btn-block" href="<?= base_url('Auth')?>">Back</a>         
+                    </div>
+                        <!-- /.col -->
+                        <div class="col-sm-6" >
+                            <button type="submit" class="btn btn-primary btn-block">Daftar</button>
+                        </div>
+                </div>
+            <?php echo form_close() ?>
+
+            <div class="social-auth-links text-center mb-3">
+                <p>- OR -</p>
+                <a href="<?= base_url('Auth/LoginAnggota')?>" class="btn btn-block btn-warning">
+                    <i class="fa fa-user-plus"></i> Kembali Login
+                </a>
+                
+            </div>
+        </div>
+        <!-- /.card-body -->
+    </div>
+</div>
+
+  <!-- Tambahkan JavaScript untuk fungsi toggle password -->
+  <script>
         // Toggle password visibility for "Password" field
         document.getElementById('togglePassword').addEventListener('click', function () {
             const passwordInput = document.getElementById('password');
@@ -116,27 +139,3 @@
             }
         });
     </script>
-
-
-                <div class="row">
-                    <div class="col-sm-6">           
-                        <a class="btn btn-success btn-block" href="<?= base_url('Auth')?>">Back</a>         
-                    </div>
-                        <!-- /.col -->
-                        <div class="col-sm-6">
-                            <button type="submit" class="btn btn-primary btn-block">Daftar</button>
-                        </div>
-                </div>
-            <?php echo form_close() ?>
-
-            <div class="social-auth-links text-center mb-3">
-                <p>- OR -</p>
-                <a href="<?= base_url('Auth/LoginAnggota')?>" class="btn btn-block btn-warning">
-                    <i class="fa fa-user-plus"></i> Kembali Login
-                </a>
-                
-            </div>
-        </div>
-        <!-- /.card-body -->
-    </div>
-</div>
